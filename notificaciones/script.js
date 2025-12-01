@@ -1,0 +1,1 @@
+document.getElementById('year').textContent = new Date().getFullYear(); document.getElementById('search-btn')?.addEventListener('click', e => { e.preventDefault(); alert('Funcionalidad de búsqueda próximamente') }); document.querySelectorAll('.notification-item').forEach(item => { item.addEventListener('click', function () { this.classList.remove('new') }) });

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Perfil - Pixel & Frames</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="sidebar">
+        <div class="logo-container">
+            <svg width="60" height="60" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#00ffff;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#ff00c8;stop-opacity:1" />
+                    </linearGradient>
+                    <filter id="logoGlow">
+                        <feGaussianBlur stdDeviation="3" result="coloredBlur" />
+                        <feMerge>
+                            <feMergeNode in="coloredBlur" />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
+                </defs>
+                <g filter="url(#logoGlow)">
+                    <circle cx="100" cy="100" r="60" fill="none" stroke="url(#logoGrad)" stroke-width="3" />
+                    <circle cx="100" cy="100" r="55" fill="none" stroke="url(#logoGrad)" stroke-width="1.5"
+                        opacity="0.5" />
+                    <line x1="100" y1="20" x2="100" y2="30" stroke="url(#logoGrad)" stroke-width="3"
+                        stroke-linecap="round" />
+                    <line x1="142" y1="34" x2="135" y2="41" stroke="url(#logoGrad)" stroke-width="2.5"
+                        stroke-linecap="round" />
+                    <line x1="166" y1="58" x2="159" y2="65" stroke="url(#logoGrad)" stroke-width="2.5"
+                        stroke-linecap="round" />
+                    <line x1="180" y1="100" x2="170" y2="100" stroke="url(#logoGrad)" stroke-width="3"
+                        stroke-linecap="round" />
+                    <line x1="166" y1="142" x2="159" y2="135" stroke="url(#logoGrad)" stroke-width="2.5"
+                        stroke-linecap="round" />
+                    <line x1="142" y1="166" x2="135" y2="159" stroke="url(#logoGrad)" stroke-width="2.5"
+                        stroke-linecap="round" />
+                    <line x1="100" y1="180" x2="100" y2="170" stroke="url(#logoGrad)" stroke-width="3"
+                        stroke-linecap="round" />
+                    <line x1="58" y1="166" x2="65" y2="159" stroke="url(#logoGrad)" stroke-width="2.5"
+                        stroke-linecap="round" />
+                    <line x1="34" y1="142" x2="41" y2="135" stroke="url(#logoGrad)" stroke-width="2.5"
+                        stroke-linecap="round" />
+                    <line x1="20" y1="100" x2="30" y2="100" stroke="url(#logoGrad)" stroke-width="3"
+                        stroke-linecap="round" />
+                    <line x1="34" y1="58" x2="41" y2="65" stroke="url(#logoGrad)" stroke-width="2.5"
+                        stroke-linecap="round" />
+                    <line x1="58" y1="34" x2="65" y2="41" stroke="url(#logoGrad)" stroke-width="2.5"
+                        stroke-linecap="round" />
+                    <rect x="70" y="70" width="60" height="35" rx="3" fill="none" stroke="url(#logoGrad)"
+                        stroke-width="2.5" />
+                    <path
+                        d="M 75 120 Q 75 115 80 115 L 120 115 Q 125 115 125 120 L 125 125 Q 125 132 120 132 L 80 132 Q 75 132 75 125 Z"
+                        fill="none" stroke="url(#logoGrad)" stroke-width="2.5" />
+                    <line x1="85" y1="123" x2="90" y2="123" stroke="url(#logoGrad)" stroke-width="2" />
+                    <line x1="87.5" y1="120.5" x2="87.5" y2="125.5" stroke="url(#logoGrad)" stroke-width="2" />
+                    <circle cx="110" cy="120" r="2.5" fill="url(#logoGrad)" />
+                    <circle cx="116" cy="123" r="2.5" fill="url(#logoGrad)" />
+                    <circle cx="110" cy="126" r="2.5" fill="url(#logoGrad)" />
+                    <circle cx="104" cy="123" r="2.5" fill="url(#logoGrad)" />
+                </g>
+            </svg>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="../index.html"><span class="nav-icon">🏠</span><span
+                        class="nav-text">Inicio</span></a></li>
+            <li class="nav-item"><a href="#" id="search-btn"><span class="nav-icon">🔍</span><span
+                        class="nav-text">Búsqueda</span></a></li>
+            <li class="nav-item"><a href="../explorar/index.html"><span class="nav-icon">🧭</span><span
+                        class="nav-text">Explorar</span></a></li>
+            <li class="nav-item"><a href="../mensajeria/index.html"><span class="nav-icon">💬</span><span
+                        class="nav-text">Mensajería</span></a></li>
+            <li class="nav-item"><a href="../notificaciones/index.html"><span class="nav-icon">❤️</span><span
+                        class="nav-text">Notificaciones</span></a></li>
+            <li class="nav-item"><a href="../crear/index.html"><span class="nav-icon">➕</span><span
+                        class="nav-text">Crear</span></a></li>
+            <li class="nav-item active"><a href="../perfil/index.html"><span class="nav-icon">👤</span><span
+                        class="nav-text">Perfil</span></a></li>
+            <li class="nav-item"><a href="../mas/index.html"><span class="nav-icon">☰</span><span
+                        class="nav-text">Más</span></a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <h1>👤 PERFIL</h1>
+        <div class="profile-container">
+            <div class="profile-header">
+                <div class="profile-avatar">👤</div>
+                <div class="profile-info">
+                    <h2>@Usuario123</h2>
+                    <p class="profile-bio">Fan de videojuegos y cine 🎮🎬 | Buscando conexiones entre ambos mundos</p>
+                    <div class="profile-stats">
+                        <div class="stat"><strong>42</strong> Publicaciones</div>
+                        <div class="stat"><strong>156</strong> Seguidores</div>
+                        <div class="stat"><strong>89</strong> Siguiendo</div>
+                    </div>
+                </div>
+                <button class="btn-edit">Editar perfil</button>
+            </div>
+
+            <div class="profile-tabs">
+                <button class="tab active">Publicaciones</button>
+                <button class="tab">Recomendaciones</button>
+                <button class="tab">Guardados</button>
+            </div>
+
+            <div class="profile-grid">
+                <div class="post-card">
+                    <div class="post-icon">🎮</div>
+                    <h4>Mi experiencia con Cyberpunk 2077</h4>
+                    <p>Después de 50 horas, aquí están mis pensamientos...</p>
+                    <span class="post-meta">Hace 2 días · 24 likes</span>
+                </div>
+                <div class="post-card">
+                    <div class="post-icon">🎬</div>
+                    <h4>Blade Runner 2049 es una obra maestra</h4>
+                    <p>Una reflexión sobre la secuela perfecta...</p>
+                    <span class="post-meta">Hace 5 días · 18 likes</span>
+                </div>
+                <div class="post-card">
+                    <div class="post-icon">🔄</div>
+                    <h4>The Last of Us → Children of Men</h4>
+                    <p>Por qué estos dos se complementan perfectamente...</p>
+                    <span class="post-meta">Hace 1 semana · 31 likes</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>© <span id="year"></span> Pixel & Frames — Donde los videojuegos se encuentran con el cine.</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
